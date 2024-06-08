@@ -11,3 +11,9 @@ telegram group with bot admin.
 coinmarket cap api token(free).
 
 Check the code in scr/
+
+[policy]
+For short, the policy for this poc project not hold tokens in secret at cloud.
+If you need this layer, contact-me.
+rodrigo.root.rj@gmail.com
+Telegram: @rodrigobrasilrj
