@@ -9,3 +9,5 @@ Required:
 telegram token(bot)
 telegram group with bot admin.
 coinmarket cap api token(free).
+
+Check the code in scr/
