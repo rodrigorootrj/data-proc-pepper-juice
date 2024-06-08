@@ -5,10 +5,10 @@ Flow for Rollout:<br>
 * Deploy this app(local size or google cloud)
 * Insert Data in google spreedsheet.
 * run it.
-Required:<br>
-telegram token(bot)<br>
-telegram group with bot admin.<br>
-coinmarket cap api token(free).<br>
+<h2>Required:</h2><br>
+<h3>telegram token(bot)</h3><br>
+<h3>telegram group with bot admin.</h3><br>
+<h3>coinmarket cap api token(free).</h3><br>
 
 Check the code in scr/<br>
 
