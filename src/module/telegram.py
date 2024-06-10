@@ -1,11 +1,9 @@
 import sys
 sys.path.append("..")
 import telepot
-import configparser, os
-config = configparser.ConfigParser()
-config.read_file(open('./etc/configuracao.conf'))
-telegram_group = config.get('telegram_group', 'group')
-token_telegram = config.get('token_telegram', 'token_key')
+#LOCAL
+from module.config import *
+
 class Telegram:
     def sendMessage(text):
         # Insira seu token do bot aqui
