@@ -1,2 +1,2 @@
-etc/
-key/
+./src/etc/*
+./src/key/*
