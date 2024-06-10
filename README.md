@@ -1,4 +1,9 @@
+
 # data-proc-pepper-juice
+## Data Source 
+<img src="midia/google-docs.png" width="800" height="300">
+## Telegram BOT Reports.
+<img src="midia/telegram-report.png" width="800" height="300">
 Description.<br>
 This project make a bot for trader crypto and deploy it at google cloud.<br>
 Flow for Rollout:<br>
