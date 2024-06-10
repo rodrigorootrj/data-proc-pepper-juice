@@ -1,4 +1,5 @@
+##
 src/etc/
 src/key/
 /src/etc/
-./src/etc/*
+src/etc/function.conf

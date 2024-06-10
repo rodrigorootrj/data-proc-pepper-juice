@@ -2,13 +2,15 @@ import sys
 sys.path.append("..")
 import requests
 import json
-from lib.config import token_key
+from lib.config import *
 from requests import Session
+##
+import logging
 
 def preco(symbol):   
-    url = 'https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest'
+    logging.INFO('STARTING preco')
+    url = ds_url
     parameters = {
-    #'slugs':'joe-biden-meme',
     'symbol' : symbol
     }
     headers = {

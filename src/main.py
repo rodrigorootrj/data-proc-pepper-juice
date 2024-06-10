@@ -14,4 +14,5 @@ import time
 import logging
 
 def seller_crypto_bot(event,context):
+    logging.INFO('STARTING seller_crypto_bot')
     Seller.seller_crypto_bot()
