@@ -1,21 +1,17 @@
 import sys
-sys.path.append(".")
+sys.path.append("..")
 import pandas as pd
 #from google.cloud import storage
 ## LOCAL
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
 import pandas as pd
 from module.telegram import Telegram
 ##
 from lib.config import *
-from lib.price import preco
-##
-import time
+
 
 class Seller:
     def seller_crypto_bot():
-        url = 'you-url-googledocs'#please, formate you url before.
+        url = ds_url#please, formate you url before.
         df = pd.read_csv(url)
         size = len(df) 
         objeto_tokens_v2 = {"data":None}

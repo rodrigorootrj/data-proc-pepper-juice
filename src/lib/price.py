@@ -1,16 +1,13 @@
 import sys
 sys.path.append("..")
-import requests
 import json
 from lib.config import *
 from requests import Session
-##
-import logging
 
 
 class Preco:
     def preco(symbol):   
-        logging.INFO('STARTING preco')
+#        logging.INFO('STARTING preco')
         url = ds_url
         parameters = {
         'symbol' : symbol
