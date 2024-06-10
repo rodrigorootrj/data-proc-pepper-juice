@@ -2,7 +2,7 @@ import sys
 sys.path.append("..")
 import telepot
 #LOCAL
-from module.config import *
+from lib.config import *
 
 class Telegram:
     def sendMessage(text):
